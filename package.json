@@ -1,0 +1,29 @@
+{
+  "name": "realtime-action-tracking",
+  "version": "1.0.0",
+  "description": "An end-to-end web service for tracking user actions on your page.",
+  "main": "boot.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekSeverson/RealtimeActionTracking.git"
+  },
+  "author": "Derek Severson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerekSeverson/RealtimeActionTracking/issues"
+  },
+  "homepage": "https://github.com/DerekSeverson/RealtimeActionTracking#readme",
+  "dependencies": {
+    "h2o2": "^4.0.2",
+    "hapi": "^11.1.2",
+    "hapi-swagger": "^2.2.4",
+    "inert": "^3.2.0",
+    "joi": "^7.0.1",
+    "lodash": "^3.10.1",
+    "rxjs": "^5.0.0-alpha.14",
+    "vision": "^4.0.1"
+  }
+}
