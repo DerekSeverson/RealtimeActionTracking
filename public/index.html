@@ -2,17 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Realtime Tracking</title>
-
-
+  <title>Realtime Tracker</title>
 </head>
-<body np-app="RealtimeTracker">
+<body ng-app="RealtimeTracker">
 
-  <h1 ds-track>Click Me</h1>
+  <h1 data-ds-track>Click Me</h1>
 
-
-
-
+  <p ng-bind="'GOOD'" ng-style="{color:'green'}" style="color:red">BAD</p>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
